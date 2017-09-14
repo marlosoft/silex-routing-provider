@@ -32,6 +32,6 @@ to use annotation for routing just like in Symfony2 framework.
 
 ## Options
 
-* `routes.directories` (required) is an array of directory paths where the annotations are evaluated 
-* `routes.cache` (optional) is the cache object that will be used to store the evaluated annotations.  
+* `routes.directories` (*required*) is an array of directory paths where the annotations are evaluated 
+* `routes.cache` (*optional*) is the cache object that will be used to store the evaluated annotations.  
 This is recommended in production deployments. Cache objects that can use used are `FilesystemCache` or `ApcuCache`
