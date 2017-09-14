@@ -3,7 +3,8 @@
 namespace Marlosoft\Test\Silex\Routing\Annotation\Controllers;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Symfony\Component\BrowserKit\Response;
+use Symfony\Component\HttpFoundation\Response;
+
 
 /**
  * Class AnnotationRoutingController
